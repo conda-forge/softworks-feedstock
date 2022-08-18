@@ -20,7 +20,7 @@ requirements:
     - python >=3.7
   run:
     - python >=3.7
-    - virtue >=0.2.1
+    - virtue >=0.3.2
 
 test:
   imports:
