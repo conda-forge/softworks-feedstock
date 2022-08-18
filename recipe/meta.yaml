@@ -1,5 +1,5 @@
 {% set name = "softworks" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/softworks-{{ version }}.tar.gz
-  sha256: c7cc5c8eb69cbc613958111de426a33eeab8c78c5fdffac98a951ec062d65b65
+  sha256: e312ebbcf089e097687c5ecc97ae7aef653c9dd2b8cb8dbd8e20475627dda8a7
 
 build:
   noarch: python
